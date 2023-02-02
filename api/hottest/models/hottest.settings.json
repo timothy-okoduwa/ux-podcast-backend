@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hottests",
+  "info": {
+    "name": "hottest"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "link": {
+      "type": "string"
+    },
+    "creatorName": {
+      "type": "string"
+    },
+    "podcastName": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

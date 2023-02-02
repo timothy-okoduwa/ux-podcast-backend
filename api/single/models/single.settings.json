@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "singles",
+  "info": {
+    "name": "single",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hostName": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

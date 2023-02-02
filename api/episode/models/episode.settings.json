@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "episodes",
+  "info": {
+    "name": "episode"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "episodeName": {
+      "type": "string"
+    },
+    "mp3link": {
+      "type": "string"
+    }
+  }
+}
